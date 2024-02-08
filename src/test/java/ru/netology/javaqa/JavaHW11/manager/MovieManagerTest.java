@@ -19,6 +19,7 @@ public class MovieManagerTest {
         Assertions.assertArrayEquals(expected, actual);
 
     }
+
     @Test
     public void addOneFilm() {
         MovieManager manager = new MovieManager();
